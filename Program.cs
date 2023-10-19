@@ -5,6 +5,6 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var summary = BenchmarkRunner.Run<ResponseHandler>();
+        var summary = BenchmarkRunner.Run<ResponseHandlerToBenchmark>();
     }
 }
